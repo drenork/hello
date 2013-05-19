@@ -1,6 +1,6 @@
 class HelloController < ApplicationController
   def world
-  	@name = "Dave"
+  	@name = "Bob"
   end
 
   def to
