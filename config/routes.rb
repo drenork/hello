@@ -1,4 +1,7 @@
 Hello::Application.routes.draw do
+  resources :tweets
+
+
   get "hello/world" => "hello#world"
 
   get "hello/to/:name" => "hello#to"
